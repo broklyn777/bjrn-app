@@ -5,7 +5,7 @@ function einar() {
   return (
     <div className={`relative h-screen  lg:h-[140vh] `}>
       <Head>
-        <title>Einar | Media3D</title>
+        <title>Einarxx | Media3D</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

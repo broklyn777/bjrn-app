@@ -28,6 +28,7 @@ function Header() {
           height={50}
           className="cursor-pointer object-contain"
         />
+
         <ul className="hidden space-x-4 md:flex">
           <li className="headerLink">
             <Link href="/om-oss">/om oss</Link>

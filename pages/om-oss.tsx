@@ -13,7 +13,6 @@ function omoss() {
       <main>
         {/* Banner???? */}
         <section>
-          <h2>om oss</h2>
           {/* Row-from-blog */}
           {/* Row-from-blog */}
           {/* Row-from-blog */}
