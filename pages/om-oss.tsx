@@ -1,8 +1,7 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import Layout from '../components/Layout'
 
-const Home: NextPage = () => {
+function omoss() {
   return (
     <div className={`relative h-screen  lg:h-[140vh] `}>
       <Head>
@@ -13,8 +12,8 @@ const Home: NextPage = () => {
       <Layout />
       <main>
         {/* Banner???? */}
-
         <section>
+          <h2>om oss</h2>
           {/* Row-from-blog */}
           {/* Row-from-blog */}
           {/* Row-from-blog */}
@@ -25,4 +24,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default omoss

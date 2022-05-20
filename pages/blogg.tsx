@@ -1,8 +1,7 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
-import Layout from '../components/Layout'
+import Header from '../components/Header'
 
-const Home: NextPage = () => {
+function blogg() {
   return (
     <div className={`relative h-screen  lg:h-[140vh] `}>
       <Head>
@@ -10,7 +9,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Layout />
+      <Header />
       <main>
         {/* Banner???? */}
 
@@ -25,4 +24,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default blogg

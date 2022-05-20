@@ -1,12 +1,12 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
+import React from 'react'
 import Layout from '../components/Layout'
 
-const Home: NextPage = () => {
+function kontakt() {
   return (
     <div className={`relative h-screen  lg:h-[140vh] `}>
       <Head>
-        <title>Hem | Media3D</title>
+        <title>Kontakt | Media3D</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -25,4 +25,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default kontakt
